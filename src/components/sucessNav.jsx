@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const SNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="nav">
+    <nav className="nav shadow">
       <div className="max-w-6xl mx-auto px-4">
         <div className="navFlex py-4">
           <div className="flex items-center">
@@ -66,7 +66,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               <svg
-                className="w-6 h-6 text-gray-500 hover:text-blue-500"
+                className="w-6 h-6 text-gray-500 "
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -111,4 +111,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SNavbar;

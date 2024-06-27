@@ -1,15 +1,21 @@
-import React, { useState } from 'react';
+import React from "react";
+import SNavbar from "./sucessNav";
+import Footer from "./footer";
 
-function Success(){
-    return(
-<div id='Success'>
-<h1>login successful!</h1>
+function Success() {
+  return (
+    <div id="Success">
+      <SNavbar />
 
-
-</div>
-    
-
-    )
+      <div className="success-wrapper">
+        <div className="success-wrapper-div">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h1>Submission Successful!</h1>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default Success
+export default Success;
