@@ -66,7 +66,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               <svg
-                className="w-6 h-6 text-gray-500 hover:text-blue-500"
+                className="w-6 h-6 text-gray-500 hover:text-gray-500"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
