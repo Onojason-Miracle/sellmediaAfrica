@@ -8,16 +8,16 @@ function Team() {
         <h1 className="teamText">Meet the heroes behind the magic</h1>
       </div>
 
-      <div className="flex">
-        {images.map((image) => (
-          <div key={image.id} className="teamImage">
+      <div className="team-flex">
+        {images.map((sellmedia) => (
+          <div key={sellmedia.id} className="teamImage">
             <img
-              src={image.imageUrl}
-              alt={`pix ${image.id}`}
-              className="images"
+              src={sellmedia.imageUrl}
+              alt={`pix ${sellmedia.id}`}
+              className="team-img"
             />
-            <p className="text1">{image.text1}</p>
-            <p className="text2">{image.text2}</p>
+            <p className="text1">{sellmedia.text1}</p>
+            <p className="text2">{sellmedia.text2}</p>
           </div>
         ))}
       </div>
