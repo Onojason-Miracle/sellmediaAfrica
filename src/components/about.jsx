@@ -14,7 +14,7 @@ function About() {
         </p>
       </div>
 
-      <img src="assets/Mid Image.png" alt="hero-image" className="bgShape" />
+      <img src="https://res.cloudinary.com/blackgirlmagic/image/upload/v1719518463/Contact%20Form/Mid_Image_tqczwv.png" alt="hero-image" className="bgShape" />
     </div>
   );
 }

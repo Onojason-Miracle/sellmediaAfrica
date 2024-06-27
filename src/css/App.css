@@ -41,7 +41,7 @@ body {
 .wrapper {
   height: 100vh; /* Full viewport height */
   background-color: #fdca09;
-  background-image: url("../../public/assets/Bg\ Shape.png");
+  background-image: url("https://res.cloudinary.com/blackgirlmagic/image/upload/v1719518461/Contact%20Form/Bg_Shape_bzwadr.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -84,6 +84,16 @@
 
   /* metrics */
 
+  #metrics {
+    background-color: black;
+    margin-top: 7%;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .metrics-div {
     width: 90%;
     margin: auto;

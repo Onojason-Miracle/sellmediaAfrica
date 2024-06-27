@@ -14,7 +14,7 @@ function Contact() {
   return (
     <div id="contact">
       <img
-        src="assets/Side Image.png"
+        src="https://res.cloudinary.com/blackgirlmagic/image/upload/v1719518462/Contact%20Form/Side_Image_tplerp.png"
         alt="contact-image"
         className="contact-iamge"
       />

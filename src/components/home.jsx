@@ -16,7 +16,7 @@ function Home() {
           Let’s create something great together.
         </h1>
 
-        <img src="assets/Hero Image (1).png" alt="hero-image" />
+        <img src="https://res.cloudinary.com/blackgirlmagic/image/upload/v1719518463/Contact%20Form/Hero_Image_1_zi7vak.png" alt="hero-image" />
       </div>
 
       <About />
