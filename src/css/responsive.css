@@ -38,6 +38,14 @@
   }
 
   /* team*/
+
+  .teamImage {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    opacity: 0px;
+    margin-top: 5%;
+    padding-bottom: 6%;
+  }
   .teamText {
     font-family: Manrope;
     font-size: 32px;
@@ -47,15 +55,16 @@
     color: #101010;
   }
 
-  .flex {
+  .team-flex {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
   }
 
-  .teamImage {
-    padding-bottom: 4%;
-    width: 100%;
+  .team-img {
+    padding-bottom: 2%;
+    width: 90%;
+    margin: auto;
     margin-top: 10%;
   }
 
